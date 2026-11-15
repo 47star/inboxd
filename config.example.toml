@@ -1,0 +1,49 @@
+[sources.messages]
+enabled = true
+poll_seconds = 3
+reconcile_seconds = 300
+
+[sources.mail]
+enabled = true
+reconcile_seconds = 300
+
+[sources.slack]
+enabled = true
+poll_seconds = 3
+reconcile_seconds = 3600
+full_reconcile_seconds = 604800
+event_poll_seconds = 0.2
+connection_check_seconds = 10
+
+[sources.calendar]
+enabled = true
+poll_seconds = 60
+start_year = 1970
+future_years = 5
+
+[sources.notes]
+enabled = true
+poll_seconds = 15
+
+[sources.reminders]
+enabled = true
+poll_seconds = 60
+
+[sources.google_calendar]
+enabled = false
+poll_seconds = 60
+backfill_seconds = 1
+start_year = 1970
+future_years = 5
+
+[sources.google_tasks]
+enabled = false
+poll_seconds = 60
+reconcile_seconds = 21600
+backfill_seconds = 1
+
+[sources.redmine]
+enabled = false
+url = ""
+poll_seconds = 60
+reconcile_batch_size = 40

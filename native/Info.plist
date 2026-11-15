@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key><string>net.donghoon.inboxd.source</string>
+  <key>CFBundleName</key><string>inboxd-source</string>
+  <key>CFBundleExecutable</key><string>inboxd-source</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleVersion</key><string>1</string>
+  <key>LSUIElement</key><true/>
+  <key>NSCalendarsFullAccessUsageDescription</key><string>Read calendar events into your local inboxd archive. No events are created or changed.</string>
+  <key>NSRemindersFullAccessUsageDescription</key><string>Read reminders into your local inboxd archive. No reminders are created or changed.</string>
+  <key>NSAppleEventsUsageDescription</key><string>Read Notes into your local inboxd archive. No notes are created or changed.</string>
+</dict>
+</plist>
